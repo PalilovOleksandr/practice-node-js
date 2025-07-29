@@ -1,0 +1,32 @@
+{
+  "name": "practice-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalilovOleksandr/practice-node-js.git"
+  },
+  "keywords": [],
+  "author": "Olexander Palilov <opalilovit@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalilovOleksandr/practice-node-js/issues"
+  },
+  "homepage": "https://github.com/PalilovOleksandr/practice-node-js#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
